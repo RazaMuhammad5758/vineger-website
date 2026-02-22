@@ -61,21 +61,31 @@ body {
     background-color: #c49b2f;
     color: #fff !important;
 }
-.logo-img {
-    height: 50px;
-    width: auto;
-    object-fit: contain;
+.brand-logo {
+    font-size: 1.6rem;
+    font-weight: 700;
+    letter-spacing: 1px;
+    text-transform: capitalize;
+    color: #ff8c00 !important; /* Premium Orange */
+    font-family: 'Playfair Display', serif;
     transition: 0.3s ease;
 }
 
-.logo-img:hover {
-    transform: scale(1.08);
+.brand-logo:hover {
+    color: #d4af37 !important; /* Gold hover */
+}
+.signature-logo {
+    font-family: 'Great Vibes', cursive;
+    font-size: 2rem;
+    color: #ff8c00 !important; /* Elegant orange */
+    letter-spacing: 1px;
+    transition: 0.3s ease;
 }
 
-/* Agar logo dark hai to optional white glow */
-.custom-navbar .logo-img {
-    filter: brightness(1.1);
+.signature-logo:hover {
+    color: #d4af37 !important; /* Gold hover */
 }
+
 
 /* HERO */
 .hero-img {
